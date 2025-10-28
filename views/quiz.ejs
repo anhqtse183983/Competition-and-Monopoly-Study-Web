@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kiểm tra kiến thức</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Serif:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/public/css/style.css">
+  <link rel="stylesheet" href="/public/css/quiz.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand-text">
+        <div class="title">Bài kiểm tra</div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main" id="quiz-container">
+    <section class="group-section" id="quiz">
+      <div class="group-header">
+        <div class="group-index" id="question-number">1</div>
+        <div>
+          <h2 class="group-title">Kiểm tra kiến thức</h2>
+          <p class="group-desc">Chọn đáp án đúng nhất cho mỗi câu hỏi.</p>
+        </div>
+      </div>
+
+      <div id="question-box" class="card quiz-card">
+        <h3 id="question-text" class="quiz-question">Câu hỏi sẽ hiển thị ở đây</h3>
+
+        <form id="answers" class="quiz-options">
+          <label><input type="radio" name="answer" value="A"> <span id="a"></span></label>
+          <label><input type="radio" name="answer" value="B"> <span id="b"></span></label>
+          <label><input type="radio" name="answer" value="C"> <span id="c"></span></label>
+          <label><input type="radio" name="answer" value="D"> <span id="d"></span></label>
+        </form>
+
+        <button id="submit" class="btn btn-primary">Gửi</button>
+
+        <div id="result" class="quiz-result"></div>
+
+        <div id="controls" class="quiz-controls">
+          <button id="retry" class="btn btn-secondary">Làm lại</button>
+          <button id="next" class="btn btn-primary">Tiếp tục</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const questions = JSON.parse(`<%- JSON.stringify(quizData) %>`);
+    let current = 0;
+  
+    const qText = document.getElementById("question-text");
+    const result = document.getElementById("result");
+    const controls = document.getElementById("controls");
+    const qNumber = document.getElementById("question-number");
+  
+    function loadQuestion() {
+      const q = questions[current];
+      qText.textContent = q.text;
+      document.getElementById("a").textContent = q.options.A;
+      document.getElementById("b").textContent = q.options.B;
+      document.getElementById("c").textContent = q.options.C;
+      document.getElementById("d").textContent = q.options.D;
+      document.querySelectorAll('input[name="answer"]').forEach(i => i.checked = false);
+      result.textContent = "";
+      result.classList.remove("correct", "incorrect");
+      controls.style.display = "none";
+      qNumber.textContent = current + 1;
+    }
+  
+    document.getElementById("submit").onclick = (e) => {
+      e.preventDefault();
+      const selected = document.querySelector('input[name="answer"]:checked');
+      if (!selected) return alert("Hãy chọn một đáp án!");
+      const q = questions[current];
+      if (selected.value === q.correct) {
+        result.textContent = "✅ Chính xác!";
+        result.classList.add("correct");
+      } else {
+        result.textContent = `❌ Sai! ${q.explanation}`;
+        result.classList.add("incorrect");
+      }
+      controls.style.display = "flex";
+    };
+  
+    document.getElementById("retry").onclick = () => loadQuestion();
+    document.getElementById("next").onclick = () => {
+      current++;
+      if (current < questions.length) {
+        loadQuestion();
+      } else {
+        qText.textContent = "🎉 Bạn đã hoàn thành bài kiểm tra!";
+        document.getElementById("answers").style.display = "none";
+        document.getElementById("submit").style.display = "none";
+        controls.style.display = "none";
+        qNumber.textContent = "✓";
+      }
+    };
+  
+    loadQuestion();
+  </script>
+  
+</body>
+</html>

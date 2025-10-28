@@ -1,0 +1,112 @@
+[
+  {
+    "text": "Độc quyền thường hình thành do nguyên nhân nào sau đây?",
+    "options": {
+      "A": "Cạnh tranh hoàn hảo trên thị trường.",
+      "B": "Sản phẩm đồng nhất và nhiều người mua bán.",
+      "C": "Sự tập trung tư bản, mua lại hoặc sáp nhập doanh nghiệp.",
+      "D": "Tăng trưởng dân số nhanh."
+    },
+    "correct": "C",
+    "explanation": "Độc quyền hình thành chủ yếu do quá trình tập trung và tích tụ tư bản, dẫn đến việc một số doanh nghiệp lớn chi phối thị trường."
+  },
+  {
+    "text": "Cạnh tranh thúc đẩy điều gì trong nền kinh tế?",
+    "options": {
+      "A": "Tăng chi phí sản xuất.",
+      "B": "Cải tiến kỹ thuật và hiệu quả kinh tế.",
+      "C": "Giảm năng suất lao động.",
+      "D": "Độc quyền hóa thị trường."
+    },
+    "correct": "B",
+    "explanation": "Cạnh tranh buộc doanh nghiệp phải đổi mới công nghệ và nâng cao năng suất để tồn tại và phát triển."
+  },
+  {
+    "text": "Đặc điểm nào sau đây không thuộc về thị trường cạnh tranh hoàn hảo?",
+    "options": {
+      "A": "Nhiều người mua và nhiều người bán.",
+      "B": "Sản phẩm đồng nhất.",
+      "C": "Doanh nghiệp có quyền định giá.",
+      "D": "Tự do gia nhập và rút lui khỏi thị trường."
+    },
+    "correct": "C",
+    "explanation": "Trong cạnh tranh hoàn hảo, doanh nghiệp là người chấp nhận giá thị trường chứ không có quyền định giá."
+  },
+  {
+    "text": "Một ví dụ điển hình về độc quyền tự nhiên là:",
+    "options": {
+      "A": "Ngành điện lực quốc gia.",
+      "B": "Các cửa hàng tạp hóa nhỏ lẻ.",
+      "C": "Ngành sản xuất giày dép.",
+      "D": "Các quán cà phê địa phương."
+    },
+    "correct": "A",
+    "explanation": "Ngành điện lực có chi phí cố định rất cao và không hiệu quả nếu có nhiều doanh nghiệp cùng đầu tư, nên thường là độc quyền tự nhiên."
+  },
+  {
+    "text": "Trong thị trường độc quyền, doanh nghiệp thường có xu hướng:",
+    "options": {
+      "A": "Giảm giá bán để tăng thị phần.",
+      "B": "Tăng giá để tối đa hóa lợi nhuận.",
+      "C": "Cạnh tranh gay gắt về giá.",
+      "D": "Không quan tâm đến người tiêu dùng."
+    },
+    "correct": "B",
+    "explanation": "Doanh nghiệp độc quyền có khả năng kiểm soát giá nên thường đặt giá cao hơn để tối đa hóa lợi nhuận."
+  },
+  {
+    "text": "Cạnh tranh không lành mạnh có thể dẫn đến hậu quả nào?",
+    "options": {
+      "A": "Cải tiến công nghệ.",
+      "B": "Tăng chất lượng sản phẩm.",
+      "C": "Phá sản hàng loạt và mất cân bằng thị trường.",
+      "D": "Thúc đẩy đổi mới sáng tạo."
+    },
+    "correct": "C",
+    "explanation": "Cạnh tranh không lành mạnh làm suy yếu môi trường kinh doanh, gây thiệt hại cho cả doanh nghiệp và người tiêu dùng."
+  },
+  {
+    "text": "Mục tiêu chính của chính sách chống độc quyền là gì?",
+    "options": {
+      "A": "Bảo vệ quyền lợi người tiêu dùng và đảm bảo cạnh tranh công bằng.",
+      "B": "Tăng lợi nhuận cho các tập đoàn lớn.",
+      "C": "Hạn chế sự gia nhập của doanh nghiệp mới.",
+      "D": "Ổn định giá cao trên thị trường."
+    },
+    "correct": "A",
+    "explanation": "Chính sách chống độc quyền nhằm ngăn ngừa sự lạm dụng quyền lực thị trường và duy trì môi trường cạnh tranh lành mạnh."
+  },
+  {
+    "text": "Cạnh tranh giữa các doanh nghiệp cùng ngành giúp:",
+    "options": {
+      "A": "Tăng chất lượng và giảm giá thành sản phẩm.",
+      "B": "Tăng giá bán và giảm năng suất.",
+      "C": "Làm giảm đổi mới công nghệ.",
+      "D": "Giảm sự lựa chọn của người tiêu dùng."
+    },
+    "correct": "A",
+    "explanation": "Cạnh tranh buộc doanh nghiệp phải tối ưu chi phí, cải tiến sản phẩm để thu hút khách hàng."
+  },
+  {
+    "text": "Tập đoàn công nghệ lớn chi phối thị trường phần mềm là ví dụ của:",
+    "options": {
+      "A": "Cạnh tranh hoàn hảo.",
+      "B": "Độc quyền nhóm (oligopoly).",
+      "C": "Độc quyền tự nhiên.",
+      "D": "Cạnh tranh độc quyền."
+    },
+    "correct": "B",
+    "explanation": "Khi một số ít công ty lớn kiểm soát phần lớn thị trường, đó là hình thức độc quyền nhóm."
+  },
+  {
+    "text": "Trong cạnh tranh độc quyền, doanh nghiệp cạnh tranh chủ yếu thông qua:",
+    "options": {
+      "A": "Giá bán thấp hơn.",
+      "B": "Khác biệt hóa sản phẩm và thương hiệu.",
+      "C": "Ngăn chặn đối thủ gia nhập.",
+      "D": "Thỏa thuận chia sẻ thị phần."
+    },
+    "correct": "B",
+    "explanation": "Cạnh tranh độc quyền đặc trưng bởi sự đa dạng sản phẩm và chiến lược thương hiệu để thu hút khách hàng."
+  }
+]

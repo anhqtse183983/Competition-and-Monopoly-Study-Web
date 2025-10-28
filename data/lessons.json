@@ -1,13 +1,107 @@
-[
+{
+  "title": "Cạnh tranh và Độc quyền trong Nền Kinh tế Thị trường",
+  "subtitle": "Phân tích lý luận, thực tiễn và hướng hành động dành cho sinh viên",
+  "groups": [
     {
-      "id": 1,
-      "title": "Bài học 1: Giới thiệu Monopoly",
-      "content": "Nội dung bài học 1..."
+      "id": "foundation",
+      "title": "Kiến thức nền tảng",
+      "description": "Khái niệm, nguyên nhân và đặc trưng của độc quyền và cạnh tranh không hoàn hảo.",
+      "lessons": [
+        {
+          "title": "Khái niệm độc quyền",
+          "text": "Độc quyền là sự liên minh giữa các doanh nghiệp lớn, có khả năng thâu tóm việc sản xuất và tiêu thụ một số hàng hoá, có khả năng định ra giá cả độc quyền nhằm thu lợi nhuận cao."
+        },
+        {
+          "title": "Nguyên nhân hình thành độc quyền",
+          "text": "Do sự phát triển của lực lượng sản xuất; do cạnh tranh; do khủng hoảng và sự phát triển của hệ thống tín dụng."
+        },
+        {
+          "title": "Độc quyền nhà nước",
+          "text": "Kiểu độc quyền trong đó nhà nước nắm giữ vị trí độc quyền ở các lĩnh vực then chốt nhằm đảm bảo ổn định chính trị - xã hội."
+        },
+        {
+          "title": "Bản chất độc quyền tư bản nhà nước",
+          "text": "Sự kết hợp của tổ chức độc quyền tư nhân và nhà nước tư bản nhằm phục vụ lợi ích tập đoàn độc quyền và duy trì chủ nghĩa tư bản."
+        }
+      ]
     },
     {
-      "id": 2,
-      "title": "Bài học 2: Các nguyên tắc cơ bản",
-      "content": "Nội dung bài học 2..."
+      "id": "effects",
+      "title": "Tác động & Biểu hiện của độc quyền",
+      "description": "Tác động tích cực/tiêu cực, cách độc quyền biểu hiện trong nền kinh tế số (ví dụ: Google).",
+      "lessons": [
+        {
+          "title": "Tác động tích cực",
+          "text": "Thúc đẩy R&D, tăng năng suất, nâng cao năng lực cạnh tranh và hiện đại hoá nền kinh tế."
+        },
+        {
+          "title": "Tác động tiêu cực",
+          "text": "Làm giảm cạnh tranh, thiệt hại cho người tiêu dùng, kìm hãm đổi mới trong một số trường hợp, gia tăng phân hoá giàu nghèo."
+        },
+        {
+          "title": "Biểu hiện: Google — độc quyền hiện đại",
+          "text": "Google chiếm tỉ lệ lớn thị phần tìm kiếm (~90%), nắm YouTube, Android, Chrome và hệ thống quảng cáo số; mua nhiều công ty trở thành tập đoàn đa ngành."
+        },
+        {
+          "title": "Tác động của Google",
+          "text": "Tích cực: nhiều dịch vụ miễn phí, thúc đẩy AI; Tiêu cực: ưu tiên sản phẩm riêng, kiểm soát dữ liệu, chịu điều tra/phạt về antitrust."
+        }
+      ]
+    },
+    {
+      "id": "marx",
+      "title": "Cơ sở lý luận Mác — Lênin",
+      "description": "Giải thích bản chất cạnh tranh độc quyền theo Kinh tế chính trị Mác — Lênin.",
+      "lessons": [
+        {
+          "title": "Nguồn gốc độc quyền theo Mác — Lênin",
+          "text": "Độc quyền là kết quả của tích tụ và tập trung tư bản do cạnh tranh, dẫn tới sự hình thành các tổ chức độc quyền."
+        },
+        {
+          "title": "Bản chất cạnh tranh độc quyền",
+          "text": "Là mâu thuẫn giữa cạnh tranh và độc quyền: độc quyền tạo siêu lợi nhuận, còn cạnh tranh tiếp tục tồn tại dưới nhiều hình thức."
+        }
+      ]
+    },
+    {
+      "id": "social_impact",
+      "title": "Tác động xã hội & tới doanh nghiệp nhỏ",
+      "description": "Phân tích ảnh hưởng tới doanh nghiệp nhỏ, người tiêu dùng và sinh viên khởi nghiệp.",
+      "lessons": [
+        {
+          "title": "Đối với doanh nghiệp nhỏ",
+          "text": "Bất bình đẳng cơ hội, phụ thuộc vào tập đoàn lớn, nhưng cũng có cơ hội làm nhà cung ứng, học hỏi công nghệ."
+        },
+        {
+          "title": "Đối với người tiêu dùng",
+          "text": "Lợi ích tạm thời (giá thấp, tiện lợi) nhưng rủi ro dài hạn (độc quyền thao túng giá, mất quyền lựa chọn, xâm phạm dữ liệu)."
+        },
+        {
+          "title": "Đối với sinh viên khởi nghiệp",
+          "text": "Động lực đổi mới và cơ hội hợp tác; nhưng gặp rào cản về vốn, thị trường, công nghệ, và tâm lý áp lực."
+        }
+      ]
+    },
+    {
+      "id": "student_action",
+      "title": "Nhận thức & Hành động cho sinh viên",
+      "description": "Gợi ý mindset và kế hoạch hành động cụ thể để sinh viên tối ưu cơ hội trong môi trường cạnh tranh bất bình đẳng.",
+      "lessons": [
+        {
+          "title": "Nhận thức phù hợp",
+          "text": "Chấp nhận sự bất bình đẳng hiện hữu; tập trung tối ưu nguồn lực; cạnh tranh với chính mình; học tập suốt đời."
+        },
+        {
+          "title": "Hành động cụ thể",
+          "text": "Đầu tư kỹ năng chuyên sâu (T-shaped), ngoại ngữ, kỹ năng mềm, xây dựng portfolio, tìm thực tập và dự án thực tế."
+        }
+      ]
+    },
+    {
+      "id": "conclusion",
+      "title": "Kết luận",
+      "description": "Tổng kết các nội dung chính: độc quyền vừa có lợi cho đổi mới vừa gây thách thức xã hội — cần quản lý và điều tiết hợp lý.",
+      "lessons": []
     }
   ]
-  
+}
