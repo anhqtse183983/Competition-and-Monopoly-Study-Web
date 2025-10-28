@@ -154,3 +154,34 @@ a { text-decoration: none; color: inherit; }
   text-align: center;
   transition: background 0.3s ease, color 0.3s ease;
 }
+
+/* ===== Responsive Header ===== */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem 1rem; /* giảm padding */
+  }
+
+  .navbar h1 {
+    font-size: 1.2rem; /* giảm size title */
+  }
+
+  .theme-toggle-btn,
+  .quiz-check-btn {
+    height: 32px; /* nhỏ hơn trên mobile */
+    font-size: 0.8rem; /* chữ vừa vặn */
+    padding: 0 10px;
+  }
+
+  .group-title {
+    font-size: 1.5rem; /* tiêu đề section nhỏ hơn */
+  }
+
+  .group-desc {
+    font-size: 0.9rem; /* mô tả nhỏ hơn */
+  }
+
+  .lessons {
+    gap: 15px; /* khoảng cách giữa card nhỏ hơn */
+  }
+}
+
