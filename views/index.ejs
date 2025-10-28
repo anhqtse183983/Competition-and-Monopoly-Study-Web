@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách bài học</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1>Danh sách bài học</h1>
+    <ul>
+        <% lessons.forEach(lesson => { %>
+            <li>
+                <a href="/lessons/<%= lesson.id %>"><%= lesson.title %></a>
+            </li>
+        <% }) %>
+    </ul>
+</body>
+</html>
