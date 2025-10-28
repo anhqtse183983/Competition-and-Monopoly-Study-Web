@@ -1,6 +1,6 @@
 [
   {
-    "text": "Độc quyền thường hình thành do nguyên nhân nào sau đây?",
+    "text": "1. Độc quyền thường hình thành do nguyên nhân nào sau đây?",
     "options": {
       "A": "Cạnh tranh hoàn hảo trên thị trường.",
       "B": "Sản phẩm đồng nhất và nhiều người mua bán.",
@@ -11,7 +11,7 @@
     "explanation": "Độc quyền hình thành chủ yếu do quá trình tập trung và tích tụ tư bản, dẫn đến việc một số doanh nghiệp lớn chi phối thị trường."
   },
   {
-    "text": "Cạnh tranh thúc đẩy điều gì trong nền kinh tế?",
+    "text": "2. Cạnh tranh thúc đẩy điều gì trong nền kinh tế?",
     "options": {
       "A": "Tăng chi phí sản xuất.",
       "B": "Cải tiến kỹ thuật và hiệu quả kinh tế.",
@@ -22,7 +22,7 @@
     "explanation": "Cạnh tranh buộc doanh nghiệp phải đổi mới công nghệ và nâng cao năng suất để tồn tại và phát triển."
   },
   {
-    "text": "Đặc điểm nào sau đây không thuộc về thị trường cạnh tranh hoàn hảo?",
+    "text": "3. Đặc điểm nào sau đây không thuộc về thị trường cạnh tranh hoàn hảo?",
     "options": {
       "A": "Nhiều người mua và nhiều người bán.",
       "B": "Sản phẩm đồng nhất.",
@@ -33,7 +33,7 @@
     "explanation": "Trong cạnh tranh hoàn hảo, doanh nghiệp là người chấp nhận giá thị trường chứ không có quyền định giá."
   },
   {
-    "text": "Một ví dụ điển hình về độc quyền tự nhiên là:",
+    "text": "4. Một ví dụ điển hình về độc quyền tự nhiên là:",
     "options": {
       "A": "Ngành điện lực quốc gia.",
       "B": "Các cửa hàng tạp hóa nhỏ lẻ.",
@@ -44,7 +44,7 @@
     "explanation": "Ngành điện lực có chi phí cố định rất cao và không hiệu quả nếu có nhiều doanh nghiệp cùng đầu tư, nên thường là độc quyền tự nhiên."
   },
   {
-    "text": "Trong thị trường độc quyền, doanh nghiệp thường có xu hướng:",
+    "text": "5. Trong thị trường độc quyền, doanh nghiệp thường có xu hướng:",
     "options": {
       "A": "Giảm giá bán để tăng thị phần.",
       "B": "Tăng giá để tối đa hóa lợi nhuận.",
@@ -55,7 +55,7 @@
     "explanation": "Doanh nghiệp độc quyền có khả năng kiểm soát giá nên thường đặt giá cao hơn để tối đa hóa lợi nhuận."
   },
   {
-    "text": "Cạnh tranh không lành mạnh có thể dẫn đến hậu quả nào?",
+    "text": "6. Cạnh tranh không lành mạnh có thể dẫn đến hậu quả nào?",
     "options": {
       "A": "Cải tiến công nghệ.",
       "B": "Tăng chất lượng sản phẩm.",
@@ -66,7 +66,7 @@
     "explanation": "Cạnh tranh không lành mạnh làm suy yếu môi trường kinh doanh, gây thiệt hại cho cả doanh nghiệp và người tiêu dùng."
   },
   {
-    "text": "Mục tiêu chính của chính sách chống độc quyền là gì?",
+    "text": "7. Mục tiêu chính của chính sách chống độc quyền là gì?",
     "options": {
       "A": "Bảo vệ quyền lợi người tiêu dùng và đảm bảo cạnh tranh công bằng.",
       "B": "Tăng lợi nhuận cho các tập đoàn lớn.",
@@ -77,7 +77,7 @@
     "explanation": "Chính sách chống độc quyền nhằm ngăn ngừa sự lạm dụng quyền lực thị trường và duy trì môi trường cạnh tranh lành mạnh."
   },
   {
-    "text": "Cạnh tranh giữa các doanh nghiệp cùng ngành giúp:",
+    "text": "8. Cạnh tranh giữa các doanh nghiệp cùng ngành giúp:",
     "options": {
       "A": "Tăng chất lượng và giảm giá thành sản phẩm.",
       "B": "Tăng giá bán và giảm năng suất.",
@@ -88,7 +88,7 @@
     "explanation": "Cạnh tranh buộc doanh nghiệp phải tối ưu chi phí, cải tiến sản phẩm để thu hút khách hàng."
   },
   {
-    "text": "Tập đoàn công nghệ lớn chi phối thị trường phần mềm là ví dụ của:",
+    "text": "9. Tập đoàn công nghệ lớn chi phối thị trường phần mềm là ví dụ của:",
     "options": {
       "A": "Cạnh tranh hoàn hảo.",
       "B": "Độc quyền nhóm (oligopoly).",
@@ -99,7 +99,7 @@
     "explanation": "Khi một số ít công ty lớn kiểm soát phần lớn thị trường, đó là hình thức độc quyền nhóm."
   },
   {
-    "text": "Trong cạnh tranh độc quyền, doanh nghiệp cạnh tranh chủ yếu thông qua:",
+    "text": "10. Trong cạnh tranh độc quyền, doanh nghiệp cạnh tranh chủ yếu thông qua:",
     "options": {
       "A": "Giá bán thấp hơn.",
       "B": "Khác biệt hóa sản phẩm và thương hiệu.",
