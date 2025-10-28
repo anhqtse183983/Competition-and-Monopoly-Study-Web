@@ -1,158 +1,47 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title><%= typeof data !== "undefined" ? data.title : "Cạnh tranh và Độc quyền" %></title>
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Serif:wght@600;700&display=swap" rel="stylesheet">
-
-  <!-- AOS -->
-  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
-
-  <!-- style -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= data.title %></title>
   <link rel="stylesheet" href="/public/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Header -->
-    <header class="site-header">
-        <div class="container header-row">
-            <div class="brand">
-                <div class="brand-text">
-                    <div class="title">Cạnh tranh & Độc quyền</div>
-                </div>
-            </div>
-  
-            <nav class="top-nav">
-                <ul class="nav-list">
-                    <li><a href="#home">Trang chủ</a></li>
-                  
-                    <li class="dropdown">
-                      <a href="#">Lý luận ▼</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#foundation">Kiến thức nền</a></li>
-                        <li><a href="#marx">Mác – Lênin</a></li>
-                      </ul>
-                    </li>
-                  
-                    <li class="dropdown">
-                      <a href="#">Tác động ▼</a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#effects">Tác động & Biểu hiện</a></li>
-                        <li><a href="#social_impact">Xã hội & DN nhỏ</a></li>
-                      </ul>
-                    </li>
-                  
-                    <li><a href="#student_action">Sinh viên</a></li>
-                    <li><a href="#conclusion">Kết luận</a></li>
-                    <li><a href="#contact">Liên hệ</a></li>
-                  </ul>                  
-            </nav>
-        </div>
-    </header>
-  
-      
-  
-    <!-- Hero -->
-    <section class="hero" id="home" data-aos="fade-up">
-      <div class="container hero-inner">
-        <div class="hero-left">
-          <h1><%= typeof data !== "undefined" ? data.title : "Cạnh tranh và Độc quyền" %></h1>
-          <p class="lead"><%= data.subtitle %></p>
-          <a href="#foundation" class="btn btn-primary">Bắt đầu học</a>
-          <a href="/quiz" class="btn btn-secondary">Kiểm tra</a>
-        </div>
-        <div class="hero-right" data-aos="zoom-in" data-aos-delay="120">
-          <!-- decorative card -->
-          <div class="hero-card">
-            <h4>Chủ đề chính</h4>
-            <ul>
-              <li>Độc quyền & nguyên nhân</li>
-              <li>Tác động xã hội</li>
-              <li>Ví dụ thực tiễn: Google</li>
-              <li>Hướng hành động cho sinh viên</li>
-            </ul>
+
+  <nav class="navbar">
+    <h1><%= data.title %></h1>
+  </nav>
+
+  <main class="main-content">
+    <% data.groups.forEach((group, idx) => { %>
+      <section class="group-section section-<%= idx + 1 %>" data-aos="fade-up">
+        <div class="container">
+          <h2 class="group-title"><%= group.title %></h2>
+          <p class="group-desc"><%= group.description %></p>
+          <div class="lessons">
+            <% group.lessons.forEach(lesson => { %>
+              <div class="lesson-card">
+                <h3><%= lesson.title %></h3>
+                <p><%= lesson.text %></p>
+              </div>
+            <% }) %>
           </div>
         </div>
-      </div>
-    </section>
-  
-    <!-- Main content: groups -->
-    <main class="container main" id="main">
-      <% data.groups.forEach(function(group, gi){ %>
-        <section id="<%= group.id %>" class="group-section" data-aos="fade-up" data-aos-once="true">
-          <div class="group-header">
-            <div class="group-index"> <%= gi+1 %> </div>
-            <div>
-              <h2 class="group-title"><%= group.title %></h2>
-              <% if (group.description) { %>
-                <p class="group-desc"><%= group.description %></p>
-              <% } %>
-            </div>
-          </div>
-  
-          <div class="cards">
-            <% if (group.lessons && group.lessons.length) { %>
-              <% group.lessons.forEach(function(lesson, li){ %>
-                <article class="card" data-aos="fade-right" data-aos-delay="<%= 80 * (li % 4) %>">
-                  <div class="card-head">
-                    <div class="card-icon" aria-hidden="true">
-                      <!-- small icon -->
-                      <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-                        <circle cx="12" cy="12" r="10" fill="rgba(75,85,255,0.12)"/>
-                        <path d="M8 12h8" stroke="#2b7be4" stroke-width="1.6" stroke-linecap="round"/>
-                        <path d="M8 15h4" stroke="#6d28d9" stroke-width="1.6" stroke-linecap="round"/>
-                      </svg>
-                    </div>
-                    <h3 class="card-title"><%= lesson.title %></h3>
-                  </div>
-                  <% if (lesson.text) { %>
-                    <p class="card-text"><%= lesson.text %></p>
-                  <% } %>
-                </article>
-              <% }); %>
-            <% } else { %>
-              <div class="empty">Không có mục con.</div>
-            <% } %>
-          </div>
-  
-        </section>
-      <% }); %>
-    </main>
-  
-    <!-- Reference + Contact -->
-    <section class="extras" data-aos="fade-up">
-      <div class="container extras-inner">
-        <div class="extras-box">
-          <h4>Tài liệu tham khảo</h4>
-          <p>Giáo trình Kinh tế chính trị (Mác-Lênin), báo cáo thực tiễn, phân tích trường hợp Google (2020–2024) và nguồn học thuật khác.</p>
-        </div>
-        <div class="extras-box">
-          <h4>Liên hệ</h4>
-          <p>Nếu bạn muốn bản PDF hoặc thêm slide, gửi email đến: <strong>se183983@fpt.edu.vn</strong></p>
-        </div>
-      </div>
-    </section>
-  
-    <!-- Footer -->
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <div>© <span id="year"></span> Cạnh tranh & Độc quyền</div>
-        <div class="socials">
-          <a href="#" aria-label="facebook">FB</a>
-          <a href="#" aria-label="twitter">TW</a>
-          <a href="#" aria-label="github">GH</a>
-        </div>
-      </div>
-    </footer>
-  
-    <!-- Scripts -->
-    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
-    <script src="/public/js/main.js"></script>
-    <script>
-      AOS.init({ duration: 700, easing: 'ease-out-cubic' });
-      document.getElementById('year').innerText = new Date().getFullYear();
-    </script>
-  </body>
+      </section>
+    <% }) %>
+
+    <div class="quiz-btn-container" data-aos="fade-up">
+      <a href="/quiz" class="btn btn-secondary">Kiểm tra</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© Nhóm nghiên cứu - Cạnh tranh và Độc quyền</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>AOS.init({ duration: 1000, once: true });</script>
+</body>
 </html>

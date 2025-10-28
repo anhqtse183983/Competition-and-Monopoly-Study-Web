@@ -16,6 +16,7 @@
       <div class="brand-text">
         <div class="title">Bài kiểm tra</div>
       </div>
+      <a href="/" class="btn-back">← Quay lại</a>
     </div>
   </header>
 
@@ -54,6 +55,7 @@
   <script>
     const questions = JSON.parse(`<%- JSON.stringify(quizData) %>`);
     let current = 0;
+    let score = 0;
   
     const qText = document.getElementById("question-text");
     const result = document.getElementById("result");
@@ -78,10 +80,12 @@
       e.preventDefault();
       const selected = document.querySelector('input[name="answer"]:checked');
       if (!selected) return alert("Hãy chọn một đáp án!");
+  
       const q = questions[current];
       if (selected.value === q.correct) {
         result.textContent = "✅ Chính xác!";
         result.classList.add("correct");
+        score++;
       } else {
         result.textContent = `❌ Sai! ${q.explanation}`;
         result.classList.add("incorrect");
@@ -90,16 +94,30 @@
     };
   
     document.getElementById("retry").onclick = () => loadQuestion();
+  
     document.getElementById("next").onclick = () => {
       current++;
       if (current < questions.length) {
         loadQuestion();
       } else {
-        qText.textContent = "🎉 Bạn đã hoàn thành bài kiểm tra!";
+        // hiển thị điểm cuối cùng
+        const total = questions.length;
+        qText.innerHTML = `🎉 Bạn đã hoàn thành bài kiểm tra!<br><br>Điểm của bạn: <strong>${score} / ${total}</strong>`;
         document.getElementById("answers").style.display = "none";
         document.getElementById("submit").style.display = "none";
         controls.style.display = "none";
+        result.textContent = "";
         qNumber.textContent = "✓";
+  
+        // thêm hiệu ứng hoặc thông điệp tùy chọn
+        const msg = document.createElement("p");
+        msg.className = "quiz-final-message";
+        msg.innerHTML = score === total
+          ? "🌟 Xuất sắc! Bạn đã trả lời đúng tất cả!"
+          : score >= total * 0.7
+            ? "👏 Rất tốt! Bạn đã hiểu khá rõ bài học."
+            : "💪 Hãy ôn lại phần lý thuyết và thử lại nhé!";
+        document.getElementById("quiz").appendChild(msg);
       }
     };
   
