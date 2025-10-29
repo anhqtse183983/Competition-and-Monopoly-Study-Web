@@ -158,6 +158,7 @@ a { text-decoration: none; color: inherit; }
 /* ===== Responsive Header ===== */
 @media (max-width: 768px) {
   .navbar {
+    position: sticky;
     padding: 0.5rem 1rem; /* giảm padding */
   }
 

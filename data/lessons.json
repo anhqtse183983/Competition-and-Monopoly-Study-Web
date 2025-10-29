@@ -9,7 +9,7 @@
       "lessons": [
         {
           "title": "Khái niệm độc quyền",
-          "text": "Độc quyền là sự liên minh giữa các doanh nghiệp lớn, có khả năng thâu tóm việc sản xuất và tiêu thụ một số hàng hoá, có khả năng định ra giá cả độc quyền nhằm thu lợi nhuận cao."
+          "text": "Độc quyền là sự liên minh giữa các doanh nghiệp lớn, có khả năng thâu tóm việc sản xuất và tiêu thụ một số loại hàng hóa, có khả năng định ra giá cả độc quyền, nhằm thu lợi nhuận độc quyền cao."
         },
         {
           "title": "Nguyên nhân hình thành độc quyền",
@@ -18,6 +18,10 @@
         {
           "title": "Độc quyền nhà nước",
           "text": "Kiểu độc quyền trong đó nhà nước nắm giữ vị trí độc quyền ở các lĩnh vực then chốt nhằm đảm bảo ổn định chính trị - xã hội."
+        },
+        {
+          "title": "Nguyên nhân độc quyền nhà nước",
+          "text": "Tích tụ và tập trung tư bản càng lớn thì tích tụ và tập trung sản xuất càng cao; sự phát triển của phân công xã hội làm xuất hiện các ngành mới; sự thống trị của độc quyền tư nhân; mở rộng quan hệ kinh tế đối ngoại."
         },
         {
           "title": "Bản chất độc quyền tư bản nhà nước",
@@ -32,19 +36,19 @@
       "lessons": [
         {
           "title": "Tác động tích cực",
-          "text": "Thúc đẩy R&D, tăng năng suất, nâng cao năng lực cạnh tranh và hiện đại hoá nền kinh tế."
+          "text": "Thúc đẩy R&D, tăng năng suất, nâng cao năng lực cạnh tranh, hiện đại hoá nền kinh tế, tạo nhiều tiện ích miễn phí cho người dùng (Gmail, Maps, Docs…), và tăng năng suất lao động."
         },
         {
           "title": "Tác động tiêu cực",
-          "text": "Làm giảm cạnh tranh, thiệt hại cho người tiêu dùng, kìm hãm đổi mới trong một số trường hợp, gia tăng phân hoá giàu nghèo."
+          "text": "Làm giảm cạnh tranh, thiệt hại cho người tiêu dùng, kìm hãm đổi mới trong một số trường hợp, gia tăng phân hoá giàu nghèo, kiểm soát dữ liệu người dùng, tăng bất bình đẳng."
         },
         {
           "title": "Biểu hiện: Google — độc quyền hiện đại",
-          "text": "Google chiếm tỉ lệ lớn thị phần tìm kiếm (~90%), nắm YouTube, Android, Chrome và hệ thống quảng cáo số; mua nhiều công ty trở thành tập đoàn đa ngành."
+          "text": "Google chiếm tỉ lệ lớn thị phần tìm kiếm (~90%), nắm YouTube, Android, Chrome và hệ thống quảng cáo số; mua nhiều công ty trở thành tập đoàn đa ngành, chi phối toàn cầu, kiểm soát giá quảng cáo, đầu tư vào AI, trung tâm dữ liệu và đám mây."
         },
         {
           "title": "Tác động của Google",
-          "text": "Tích cực: nhiều dịch vụ miễn phí, thúc đẩy AI; Tiêu cực: ưu tiên sản phẩm riêng, kiểm soát dữ liệu, chịu điều tra/phạt về antitrust."
+          "text": "Tích cực: thúc đẩy đổi mới công nghệ, phát triển AI, cung cấp nhiều dịch vụ miễn phí, tăng năng suất và kết nối toàn cầu. Tiêu cực: giảm cạnh tranh, kiểm soát dữ liệu người dùng, bị điều tra/phạt về luật chống độc quyền, tăng bất bình đẳng xã hội."
         }
       ]
     },
@@ -59,26 +63,26 @@
         },
         {
           "title": "Bản chất cạnh tranh độc quyền",
-          "text": "Là mâu thuẫn giữa cạnh tranh và độc quyền: độc quyền tạo siêu lợi nhuận, còn cạnh tranh tiếp tục tồn tại dưới nhiều hình thức."
+          "text": "Là mâu thuẫn giữa cạnh tranh và độc quyền: độc quyền tạo siêu lợi nhuận, còn cạnh tranh tiếp tục tồn tại dưới nhiều hình thức. Chi phối giá trị thặng dư, khác biệt hóa sản phẩm, tồn tại cạnh tranh giữa các nhà tư bản độc quyền, giữa độc quyền và không độc quyền, và trong nội bộ tổ chức độc quyền."
         }
       ]
     },
     {
       "id": "social_impact",
-      "title": "Tác động xã hội & tới doanh nghiệp nhỏ",
+      "title": "Tác động của Cạnh Tranh Độc Quyền tới doanh nghiệp nhỏ",
       "description": "Phân tích ảnh hưởng tới doanh nghiệp nhỏ, người tiêu dùng và sinh viên khởi nghiệp.",
       "lessons": [
         {
           "title": "Đối với doanh nghiệp nhỏ",
-          "text": "Bất bình đẳng cơ hội, phụ thuộc vào tập đoàn lớn, nhưng cũng có cơ hội làm nhà cung ứng, học hỏi công nghệ."
+          "text": "Bất bình đẳng cơ hội, phụ thuộc vào tập đoàn lớn, nhưng cũng có cơ hội làm nhà cung ứng, học hỏi công nghệ, tối ưu quy trình sản xuất, chuyển đổi kinh tế số, và vươn lên thành đối thủ tiềm năng. Tuy nhiên, dễ bị loại khỏi thị trường, khó tiếp cận vốn, mất độc lập và quyền kiểm soát lợi nhuận."
         },
         {
           "title": "Đối với người tiêu dùng",
-          "text": "Lợi ích tạm thời (giá thấp, tiện lợi) nhưng rủi ro dài hạn (độc quyền thao túng giá, mất quyền lựa chọn, xâm phạm dữ liệu)."
+          "text": "Lợi ích tạm thời (giá thấp, tiện lợi, đa dạng sản phẩm) nhưng rủi ro dài hạn (độc quyền thao túng giá, giảm cạnh tranh, mất quyền lựa chọn, kiểm soát dữ liệu, tăng bất bình đẳng)."
         },
         {
           "title": "Đối với sinh viên khởi nghiệp",
-          "text": "Động lực đổi mới và cơ hội hợp tác; nhưng gặp rào cản về vốn, thị trường, công nghệ, và tâm lý áp lực."
+          "text": "Động lực đổi mới và cơ hội hợp tác; được hỗ trợ qua các chương trình ươm tạo, tài trợ vốn; nhưng gặp rào cản về vốn, công nghệ, kinh nghiệm, thị trường và áp lực tâm lý cao, dễ dẫn tới thất bại hoặc bỏ cuộc."
         }
       ]
     },
@@ -89,11 +93,11 @@
       "lessons": [
         {
           "title": "Nhận thức phù hợp",
-          "text": "Chấp nhận sự bất bình đẳng hiện hữu; tập trung tối ưu nguồn lực; cạnh tranh với chính mình; học tập suốt đời."
+          "text": "Chấp nhận sự bất bình đẳng hiện hữu; tập trung tối ưu nguồn lực; cạnh tranh với chính mình; học tập suốt đời; tìm 'thị trường ngách'; coi kiến thức và kỹ năng là tài sản lớn nhất."
         },
         {
           "title": "Hành động cụ thể",
-          "text": "Đầu tư kỹ năng chuyên sâu (T-shaped), ngoại ngữ, kỹ năng mềm, xây dựng portfolio, tìm thực tập và dự án thực tế."
+          "text": "Đầu tư kỹ năng chuyên sâu (T-shaped), ngoại ngữ, kỹ năng mềm; xây dựng portfolio; tìm thực tập và dự án thực tế; xây dựng mạng lưới chất lượng; học hỏi kinh nghiệm thực tế; chứng minh năng lực qua hồ sơ năng lực và dự án."
         }
       ]
     },
@@ -101,7 +105,12 @@
       "id": "conclusion",
       "title": "Kết luận",
       "description": "Tổng kết các nội dung chính: độc quyền vừa có lợi cho đổi mới vừa gây thách thức xã hội — cần quản lý và điều tiết hợp lý.",
-      "lessons": []
+      "lessons": [
+        {
+          "title": "Kết luận tổng hợp",
+          "text": "Độc quyền hiện đại (như Google) chi phối thị trường toàn cầu, thúc đẩy đổi mới nhưng cũng tăng bất bình đẳng và rủi ro cho doanh nghiệp nhỏ, người tiêu dùng và sinh viên khởi nghiệp. Việc quản lý, điều tiết và xây dựng mindset & kỹ năng phù hợp là cần thiết để đảm bảo lợi ích xã hội."
+        }
+      ]
     }
   ]
 }
